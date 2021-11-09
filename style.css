@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     width: 100%;
-    height: 100%;
+    height: 100vh ;
     overflow:hidden;
     position: relative;
 }
@@ -52,7 +52,7 @@ body{
     padding: 30px 20px;
 }
 
-.mid .chat p {
+.mid .chat p{
     margin: 0;
     font-size: 28px;
     background:#063b36;
@@ -65,4 +65,22 @@ body{
 .input {
     width: 100%;
     height: 79px;
+    overflow: hidden;
 }
+
+.input input {
+    width: 100%;
+    height: 70px;  
+    outline: none;
+    border: none;
+    padding-left: 30px;
+    padding-top: 0;
+    font-family: cursive;
+    color: #fff;
+    font-size: 30px;
+    background: #090e11;
+}
+
+
+
+
